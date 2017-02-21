@@ -1,5 +1,8 @@
 #Arroracing
 
+Current alpha branch is here:
+https://github.com/TimTinkers/unreal-project-arroracing
+
 ## General Idea
 Our general plan for this game is “arrow racing,” a unique take on archery combat. Players will need to hit a series of targets to progress across a track by teleporting, reaching checkpoints along the way. A secondary goal is stopping the opponent from finishing their own track by shooting arrows at them to reset their position to the previous checkpoint.
 
