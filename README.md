@@ -1,7 +1,33 @@
 #Arroracing
 
-Current alpha branch is here:
-https://github.com/TimTinkers/unreal-project-arroracing
+## Team:
+Jason Tang, Tim Clancy, Davin Hazard, Luke Carlson
+
+https://drive.google.com/file/d/0B6BUWGkuVE_ob2hES25rQnNDaHc/view?usp=sharing
+
+## Techniques used and why
+For our game design, we chose to implement a simple environment in order to focus primarily on game logic and experience. A large component of our design is teleportation. We implemented this by tagging objects as being “Teleportable” and integrating this with first person projectile logic. To prevent motion sickness, we made the teleportation blocks stationary and added a pause between shooting the next site and teleporting there. 
+
+## Motion sickness
+We don’t really have motion sickness because there’s only two objects that are moving and we have fading in/out between teleportations.  The level is pretty flat so everything looks smooth. Originally we had the player standing on moving plates but changed the deisgn to reduce sickness.
+
+## How to play
+Hold the bow with the left hand.  Put right hand behind the shoulder to draw an arrow- pull the trigger for damage and push on the pad for teleport.  When the right hand is on the bow it'll vibrate until it's no longer pulling the arrow at a correct position or if the button is no longer pressed.  The longer the bow is dragged, the longer the arrow shoots.  
+The objective is to race the opponent to the other side by teleporting across the pads.  You can slow your opponent by shooting the blocks in their path. When a block is shot, it is temporarily dropped. 
+The first player to reach the end of their path wins and the game is reset to the lobby. 
+
+## Hardest part
+The hardest part is making the multiplayer section work well.
+
+## What do we think we should’ve done differently
+We changed our design dramatically after beta after given feedbacks.  It would be better if we did more for alpha or we changed our design earlier than a few days before the final product.
+
+## What do we think you should’ve done differently
+Beta is a great time for us to check out what works and what doesn’t, but the time between beta to the final isn’t enough.  Especially when we have great feedbacks in Beta, we want to put those into the game and then hear back feedbacks again.
+
+
+
+
 
 ## General Idea
 Our general plan for this game is “arrow racing,” a unique take on archery combat. Players will need to hit a series of targets to progress across a track by teleporting, reaching checkpoints along the way. A secondary goal is stopping the opponent from finishing their own track by shooting arrows at them to reset their position to the previous checkpoint.
